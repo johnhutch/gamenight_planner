@@ -1,24 +1,15 @@
-# README
+# JENRY
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Like John Henry, this machine builds new rails.
 
-Things you may want to cover:
+----
 
-* Ruby version
+It's a starting point for new rails apps that has all the stuff we typically have to re-do every time. 
 
-* System dependencies
+## Gems
+* Devise: authentication
+* Pundit: authorization
+* Figaro: Proper env vars and deployment to heroku
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Frontend
+* Bootstrap added the right way
