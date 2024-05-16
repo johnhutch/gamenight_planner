@@ -13,3 +13,8 @@ It's a starting point for new rails apps that has all the stuff we typically hav
 
 ## Frontend
 * Bootstrap added the right way
+
+
+# When Spinning Off a New Site
+
+* In config/environments/production.rb, be sure to update `config.action_mailer.default_url_options = { host: 'tbd', port: 3000 }` to your actual production hostname
