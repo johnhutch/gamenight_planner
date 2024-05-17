@@ -1,10 +1,8 @@
-# JENRY
+# Game Night Planner
 
-Like John Henry, this machine builds new rails.
+Helps you plan your board game night with all your buds. 
 
 ----
-
-It's a starting point for new rails apps that has all the stuff we typically have to re-do every time. 
 
 ## Gems
 * Devise: authentication
@@ -12,9 +10,4 @@ It's a starting point for new rails apps that has all the stuff we typically hav
 * Figaro: Proper env vars and deployment to heroku
 
 ## Frontend
-* Bootstrap added the right way
-
-
-# When Spinning Off a New Site
-
-* In config/environments/production.rb, be sure to update `config.action_mailer.default_url_options = { host: 'tbd', port: 3000 }` to your actual production hostname
+* Bootstrap 
